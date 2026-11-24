@@ -1,0 +1,26 @@
+name: 想法 / Feature
+description: 提一个新功能或改动
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决什么问题
+      description: 先说问题和场景，再说方案。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你想怎么做
+  - type: textarea
+    id: spec
+    attributes:
+      label: 和规格的关系
+      description: 会不会改产品规则、术语或接口契约？会的话，请到 spec 仓库提。
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: 参与
+      options:
+        - label: 我愿意为它提 PR

@@ -1,0 +1,40 @@
+name: 缺陷 / Bug
+description: 某个东西没有按规格或预期工作
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 实际看到的现象。可以贴截图或日志，先去掉密钥和个人数据。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 本来应该怎样
+      description: 能指出规格里的出处更好（spec 仓库的 product/ 或 contract/）。
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 怎么复现
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      description: 版本或提交；自己部署还是官方托管；浏览器或系统。
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 这不是安全问题（安全问题请按 SECURITY.md 私下报告）
+          required: true

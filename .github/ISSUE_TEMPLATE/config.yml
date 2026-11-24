@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安全问题 / Security
+    url: https://github.com/KeepEssenceApp/.github/blob/main/SECURITY.md
+    about: 请不要开公开 issue，按这里的说明私下报告。
+  - name: 产品规格 / Product spec
+    url: https://github.com/KeepEssenceApp/spec
+    about: 产品行为、术语和接口契约的问题，请到 spec 仓库提。
