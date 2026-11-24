@@ -18,6 +18,7 @@
 | 网页客户端 | [web](https://github.com/KeepEssenceApp/web) |
 | 浏览器扩展 | [extension](https://github.com/KeepEssenceApp/extension) |
 | 助手接入指南、插件、agent 示例 | [agents](https://github.com/KeepEssenceApp/agents) |
+| 管理后台 | [admin](https://github.com/KeepEssenceApp/admin) |
 | iPhone App 和分享扩展 | [ios](https://github.com/KeepEssenceApp/ios) |
 | 官网 | [site](https://github.com/KeepEssenceApp/site) |
 
