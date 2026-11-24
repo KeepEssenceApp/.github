@@ -18,6 +18,7 @@
 | 网页客户端 | [web](https://github.com/KeepEssenceApp/web) |
 | 浏览器扩展 | [extension](https://github.com/KeepEssenceApp/extension) |
 | 助手接入指南、插件、agent 示例 | [agents](https://github.com/KeepEssenceApp/agents) |
+| iPhone App 和分享扩展 | [ios](https://github.com/KeepEssenceApp/ios) |
 | 官网 | [site](https://github.com/KeepEssenceApp/site) |
 
 接口只在 spec 的 `contract/` 里定。要改接口，先在 spec 提 PR，合并后再改 core 和客户端；不要在代码仓库里先改接口。
@@ -35,6 +36,13 @@
 - 密钥、令牌、个人数据不进仓库，也不贴进 issue。
 - 改动和产品规格冲突时以规格为准；觉得规格不对，去 spec 开 issue。
 - 提交即表示你同意以该仓库的许可证（AGPL-3.0）发布你的贡献。
+
+## 版本
+
+- 每个模块的仓库用 semantic-release 按提交说明自动出版本，所以提交说明要按 Conventional Commits 写：`feat:` 出小版本，`fix:` 出修订号，`feat!:` 或正文里写 `BREAKING CHANGE:` 出大版本。
+- 各模块的大版本号对齐，等于接口契约的大版本号。契约现在是 `/v1`，所以 spec、core、web、extension、agents、ios 都是 1.x.y。
+- 只有契约出了破坏性改动，才升大版本，并且所有模块一起升。单个模块自己的改动不用 `feat!:`；觉得非破坏不可，先到 spec 开 issue。
+- 小版本和修订号各模块各走各的，不需要对齐。
 
 ## 路线和优先级
 

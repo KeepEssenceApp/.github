@@ -15,6 +15,7 @@ KeepEssence 的核心和各个客户端是开源的，你可以自己部署一�
 | [core](https://github.com/KeepEssenceApp/core) | 核心（服务器）：Cloudflare Workers、D1、R2。HTTP API、MCP 端点、授权、初筛 | 未开工 |
 | [web](https://github.com/KeepEssenceApp/web) | 网页客户端：读每日摘要和笔记，管理助手和设备 | 未开工 |
 | [extension](https://github.com/KeepEssenceApp/extension) | 浏览器扩展：把网页、文字、图片存进来 | 未开工 |
+| [ios](https://github.com/KeepEssenceApp/ios) | iPhone App 和分享扩展 | 开发中 |
 | [agents](https://github.com/KeepEssenceApp/agents) | 助手接入：各家的连接器指南、插件、自部署 agent 示例 | 未开工 |
 | [site](https://github.com/KeepEssenceApp/site) | 官网 keepessence.app | 可用 |
 
