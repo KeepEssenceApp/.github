@@ -3,7 +3,7 @@
 **AI 根据你的需求，帮你筛选，为你内化。**
 AI that filters what you save against your own needs, and helps you internalize what is worth keeping.
 
-你把链接、文字、图片存进来；助手（agent）逐条解读，每天汇成一份每日摘要；值得的条目你和 AI 深入对话，留下笔记。存进来的原件会过期，留下的只有每日摘要和笔记。
+你把链接、文字、图片存进来；助手（agent）逐条解读，每天汇成一份每日摘要；值得的条目你和 AI 深挖，留下笔记。存进来的原件会过期，留下的只有每日摘要和笔记。
 
 KeepEssence 的核心和各个客户端是开源的，你可以自己部署一套。
 
